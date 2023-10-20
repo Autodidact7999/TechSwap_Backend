@@ -1,0 +1,12 @@
+version: "3"
+services:
+  user-service:
+    build: ./user-service
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./user-service:/usr/src/app
+      - /usr/src/app/node_modules
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
