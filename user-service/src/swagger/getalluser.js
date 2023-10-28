@@ -3,8 +3,6 @@
  * /users:
  *   get:
  *     summary: Get all users
- *     security:
- *       - BearerAuth: []
  *     tags: [Users]
  *     responses:
  *       200:

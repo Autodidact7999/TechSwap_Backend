@@ -3,8 +3,6 @@
  * /users/{id}:
  *   put:
  *     summary: Edit a user
- *     security:
- *       - BearerAuth: []
  *     tags: [Users]
  *     parameters:
  *       - in: path

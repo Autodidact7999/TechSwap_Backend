@@ -1,16 +1,8 @@
 /**
  * @swagger
- * components:
- *   securitySchemes:
- *     BearerAuth:            
- *       type: http
- *       scheme: bearer
- *       bearerFormat: JWT    
  * /users/{id}:
  *   get:
  *     summary: Get a user by ID
- *     security:
- *       - BearerAuth: []     
  *     tags: [Users]
  *     parameters:
  *       - in: path
